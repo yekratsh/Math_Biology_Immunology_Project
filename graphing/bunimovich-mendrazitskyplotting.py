@@ -26,7 +26,7 @@ def system(t, y):
     dx4 = r*(1-B*x4)*x4-p2*x1*x4
     return [dx1, dx2, dx3, dx4]
 
-t_span = (0, 60)
+t_span = (0, 80)
 t_eval = np.linspace(*t_span, 1000)
 y0 = [.1, .1, .1, .1]
 print("here1")
